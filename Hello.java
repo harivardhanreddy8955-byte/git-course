@@ -7,5 +7,9 @@ public class Hello{
         a = 5 ;
         System.out.println("The value of a + b is " + (a + b));
         a = 6 ;
+
+        Basics s = new Basics();
+        s.isNumberAviable(100);
+
     }
 }
