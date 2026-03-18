@@ -1,9 +1,6 @@
 public class Add {
-    int a , b , res;
-    public int addTwoNumbers(){
-        a = 3 ;
-        b = 4 ;
-        res = a + b ;
+    public int addTwoNumbers(int a , int b){
+       int res = a + b ;
         return res ;
     }
 }
